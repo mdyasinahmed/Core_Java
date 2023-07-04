@@ -8,7 +8,6 @@ public class Java_Variables {
 		char c = 'A';
 		
 		
-		
 		System.out.println(speedLimit);
 		System.out.println(marks);
 		System.out.println(b);
