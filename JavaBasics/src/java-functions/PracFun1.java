@@ -2,9 +2,9 @@ import java.util.*;
 
 public class PracFun1{
     // Add 2 numbers and return the sum
-    public static int CalculateSum(int a, int b){
+    public static void CalculateSum(int a, int b){
         int sum = a + b;
-        return sum;
+        System.out.println("Sum = "+sum);
     }
 
     //main function
@@ -15,6 +15,6 @@ public class PracFun1{
         int x = scan.nextInt();
         int y = scan.nextInt();
 
-        System.out.println("Sum of the Numbers is: "+CalculateSum(x,y));
+        CalculateSum(x,y);
     }
 }
