@@ -10,9 +10,9 @@ public class factorial{
         int fact = 1;
 
         for(int i=n; i>=n; i--){
-            fact = fact* i;
+            fact = fact*i;
         }
-
+        
         System.out.println(fact);
         return;
     }
