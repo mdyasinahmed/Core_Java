@@ -12,14 +12,16 @@ public class TwoDArray{
 
         // scanning array
         for(int i=0; i<rows; i++){
-            for(){
-
+            for(int j=0; j<cols; j++){
+                arr[i][j] = scan.nextInt();
             }
         }
 
         // printing array
-        for(int i=0; i<size; i++){
-            System.out.print(arr[i]+" ");
+        for(int i=0; i<rows; i++){
+            for(int j=0; j<cols; j++){
+                System.out.print(arr[i]+" "+arr[j]);
+            }
         }
     }
 }
