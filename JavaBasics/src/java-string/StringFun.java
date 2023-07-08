@@ -21,5 +21,10 @@ public class StringFun{
         }else{
             System.out.println("Strings Aren't Equal.");
         }
+
+        // Substring
+        String sentence = "Metroplitan University";
+        String subSen = sentence.substring(12, sentence.length());
+        System.out.println(subSen);
     }
 }
