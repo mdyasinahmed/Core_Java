@@ -6,5 +6,8 @@ public class StringFun{
 
         String full = s1 + s2;
         System.out.println(full);
+
+        //length
+        System.out.println("String Length is: " + full.length());
     }
 }
