@@ -5,7 +5,7 @@ public class hello{
         // printing in new line
         // type 1
         System.out.println();
-        System.out.println("Welcome Borna, in Java's World!!");
+        System.out.println("Welcome!! to Java's World!!");
         //type 2
         System.out.print("Congratulations!!\n");
         System.out.print("You Can COde NOow with Jva\n");
