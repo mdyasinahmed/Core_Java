@@ -49,7 +49,10 @@ public class stringBuilder{
         stb.append("E");
         stb.append("S");
         stb.append("H");
-        
+
         System.out.println(stb);
+
+        // length
+        System.out.println("StringBuilder Length is: " + sb.length());
     }
 }
