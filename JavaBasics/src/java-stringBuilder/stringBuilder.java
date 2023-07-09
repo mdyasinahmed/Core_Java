@@ -35,5 +35,21 @@ public class stringBuilder{
         //delete
         // sb.delete(1,1)
         // System.out.println(sb);
+
+        //append
+
+        StringBuilder stb = new StringBuilder("B");
+
+        stb.append("A");
+        stb.append("N");
+        stb.append("G");
+        stb.append("L");
+        stb.append("A");
+        stb.append("D");
+        stb.append("E");
+        stb.append("S");
+        stb.append("H");
+        
+        System.out.println(stb);
     }
 }
