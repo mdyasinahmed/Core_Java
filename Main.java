@@ -29,6 +29,33 @@ public class Main{
         int sum = a + b;
         System.out.println("Sum of 1 Numbers: " + sum);
 
+        // Conditionals in Java
+        // if-else
+        if(age>18){
+            System.out.println("You can vote.");
+        }else{
+            System.out.println("You're not available to vote.");
+        }
         
+        // else if in Java
+        if(a>b){
+            System.out.println("A is Greater than B");
+        }else if(b>a){
+            System.out.println("B is Greater than A");
+        }else{
+            System.out.println("Both are Equal.");
+        }
+
+        // nested else if in Java
+        if(a==b){
+            System.out.println("Equal");
+        }else{
+            if(a>b){
+                System.out.println("a is Greater.");
+            }else{
+                System.out.println("b is Greater");
+            }
+        }
+
     }
 }
