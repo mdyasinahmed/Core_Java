@@ -36,7 +36,7 @@ public class Main{
         }else{
             System.out.println("You're not available to vote.");
         }
-        
+
         // else if in Java
         if(a>b){
             System.out.println("A is Greater than B");
@@ -55,6 +55,21 @@ public class Main{
             }else{
                 System.out.println("b is Greater");
             }
+        }
+
+        // Conditionals : Switch
+
+        switch(age){
+            case 18: System.out.println("You're Just " + age);
+            break;
+
+            case 20: System.out.println("You're Just " + age);
+            break;
+
+            case 22: System.out.println("You're Just " + age);
+            break;
+
+            default : System.out.println("No Comments.");
         }
 
     }
