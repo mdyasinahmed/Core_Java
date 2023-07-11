@@ -72,5 +72,45 @@ public class Main{
             default : System.out.println("No Comments.");
         }
 
+        // Loops in Java
+        // for loop in Java
+        // declaration:
+            // for(initialization; conditions; counter-update){
+            //     // statements
+            // }
+
+        System.out.println("Example of for loop:");
+        for(int i = 0; i<5; i++){
+            System.out.println(i);
+        }
+
+        // while loop in Java
+        // declaration:
+            // initialization;
+            // while(conditions){
+            //      statements
+            //      counter-update
+            // }
+
+        System.out.println("Example of while loop:");
+        int count = 0;
+        while(count<10){
+            System.out.println(count);
+            count++;
+        }
+        // do while loop in Java
+        // declaration:
+            // initialization;
+            // do{
+            //      statements
+            //      counter-update
+            // }while(conditions);
+
+        System.out.println("Example of do-while loop:");
+        int n = 0;
+        do{
+            System.out.println(n);
+            n++;
+        }while(n<15);
     }
 }
