@@ -112,5 +112,23 @@ public class Main{
             System.out.println(n);
             n++;
         }while(n<15);
+
+        // for each loop in Java
+        /**
+         * Declaration 
+         * for(dataType item : array){
+                ...
+            }
+         */
+        // an array of numbers
+        int[] numbers = {3, 4, 5, -5, 0, 12};
+        int full_sum = 0;
+
+        for(int number: numbers) {
+            full_sum += number;
+        }
+        
+        System.out.println("Sum = " + full_sum);
+        
     }
 }
