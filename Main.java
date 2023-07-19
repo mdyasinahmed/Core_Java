@@ -117,7 +117,7 @@ public class Main{
         /**
          * Declaration 
          * for(dataType item : array){
-                ...
+                ...z
             }
          */
         // an array of numbers
